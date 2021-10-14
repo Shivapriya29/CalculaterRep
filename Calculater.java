@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public static Calculater{
 	public static void main(String[] args){
 	Calculater c = new Calculater();
