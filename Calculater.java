@@ -14,6 +14,10 @@ public static Calculater{
 		c.Division(a,b);
 		c.Multiplication(a,b);
 		c.Subtraction(a,b);
+		System.out.println(q);
+		System.out.println(p);
+		System.out.println(t);
+		System.out.println(r);
 	}
 	int Addition(int a, int b){
 		int p = a + b;
