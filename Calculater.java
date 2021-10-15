@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public static Calculater{
+public class Calculater{
 	// main function
 	public static void main(String[] args){
 		// creating object to the class.
@@ -10,17 +10,19 @@ public static Calculater{
 		int a = s.nextInt();
 		System.out.println("Enter b Value");
 		int b = s.nextInt();
-		c.Addition(a,b);
-		c.Division(a,b);
-		c.Multiplication(a,b);
-		c.Subtraction(a,b);
+		int p = c.Addition(a,b);
+		int q = c.Division(a,b);
+		int r = c.Multiplication(a,b);
+		int t = c.Subtraction(a,b);
+		System.out.println("Value of Arthametic operaters is:");
 		System.out.println(q);
 		System.out.println(p);
 		System.out.println(t);
 		System.out.println(r);
 	}
 	int Addition(int a, int b){
-		int p = a + b;
+		final int c = 10;
+		int p = a + b + c;
 		return p;
 	}
 	 int Division(int a , int b){
