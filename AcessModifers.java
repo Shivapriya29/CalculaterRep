@@ -20,6 +20,7 @@ There are 2 types of Acess Modifers
         
         DefaultModifier obj3 = new DefaultModifier(); // creating Default object 
         obj3.msg3(); // assign default method to obj of default class 
+        /* gives Compile tym errors.*/
         try {
         PrivateAccessModifier obj1 = new PrivateAccessModifier();
         System.out.println(obj1.data); 
