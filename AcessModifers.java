@@ -11,11 +11,15 @@ There are 2 types of Acess Modifers
     public static void main(String[] args){
         PublicModifier obj = new PublicModifier(); // creating object for public class i.e A.java
         obj.message(); // it will print the message.
-        s obj2 = new s(); 
+        s obj2 = new s(); // gives Compile time error.
+        
         /* creating private constructer object but it gives Compile time error 
          * bcz it is specified in private.
          * Note: A class cannot be private / protected  Except Nested Class.
          */
+        
+        DefaultModifier obj3 = new DefaultModifier(); // creating Default object 
+        obj3.msg3(); // assign default method to obj of default class 
         try {
         PrivateAccessModifier obj1 = new PrivateAccessModifier();
         System.out.println(obj1.data); 
