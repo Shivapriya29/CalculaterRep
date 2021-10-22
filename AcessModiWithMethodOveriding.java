@@ -7,7 +7,7 @@ public class AcessModiWithMethodOveriding extends A {
 	}
 		public static void main(String[] args) {
 			AcessModiWithMethodOveriding amm = new AcessModiWithMethodOveriding(); // creating obj of class 
-		amm.msg6();
+		amm.msg6(); // 
 		amm.msg5();
 	}
 
