@@ -1,0 +1,45 @@
+__________________________________________________________________________________________________________________
+3.Learning Objects :-
+--------------------
+1. Explain operations in java
+2. Text equality b/n String and other Objects using == and equals()
+3.create if/else statements
+4. use switch statements.
+
+               1. Operaters in java
+               --------------------
+  * these are special symbals.
+  * are used to perform specific operations and return a result
+  * 1.Arthmetic operaters[+,-,*,/,++,--]
+  * 2.Relational operaters [==,!=,<,>,<=,>=]
+  * 3.Bitwise operaters[~,<<,>>,>>>,&,^,|]
+  * 4.Logical operaters[&&,||,?:]
+  * 5.Assignment operaters[=]
+             Precedence Operaters
+             --------------------
+ * java operator precedence is in two ways : (L to R) and (R to L) associative
+             Equals() Method
+             ---------------
+ * main purpose is compare the state of two objects or contents of the object.
+             Switch Statement
+             -----------------
+*  it is conditional , multiple-way branching statement.
+___________________________________________________________________________________________________________________
+4.Learning Objects :-
+--------------------
+1.Work with For loop
+2.Work with while loop
+3.work with do while loop
+4.compare loops
+5.Use break and continue statements
+
+* Enable you to execute block of statements multiple times.
+* Are controlled by Boolean Expression.
+              
+  
+  
+  
+  
+  
+  
+             
